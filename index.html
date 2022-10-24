@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap -->
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Login Page</title>
+  </head>
+  <body>
+    <div class="login-card-container">
+      <div class="login-card">
+        <div class="login-card-logo">
+          <i class="bi bi-snow2"></i>
+        </div>
+        <div class="login-card-header">
+          <h1>Sign In</h1>
+          <p>Por favor faça login para utilizar a plataforma</p>
+        </div>
+        <form class="login-card-form">
+          <div class="form-item">
+            <i class="bi bi-envelope-fill"></i
+            ><input type="email" placeholder="Email" required autofocus />
+          </div>
+          <div class="form-item">
+            <i class="bi bi-shield-lock-fill"></i
+            ><input type="password" placeholder="Digite sua senha" required />
+          </div>
+          <div class="form-item-other">
+            <div class="form-item-checkbox">
+              <input type="checkbox" id="rememberMeCheckbox" />
+              <label for="rememberMeCheckbox">Lembrar Senha</label>
+            </div>
+            <a href="#">Esqueci minha senha!</a>
+          </div>
+
+          <button type="submit">Login</button>
+        </form>
+        <div class="login-card-footer">
+          <p>Não tem uma conta?<a href="#">Criar conta</a>.</p>
+        </div>
+      </div>
+      <div class="login-card-social">
+        <p>Fazer login com outras plataformas</p>
+        <div class="login-card-social-btns">
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-google"></i></a>
+        </div>
+      </div>
+    </div>
+    <footer class="container-fluid footer">
+      <span class="me-4 copy">Patrick Morais © 2022</span>
+      <a
+        href="https://www.linkedin.com/in/patrickmf97/"
+        target="blank"
+        class="me-4"
+        ><i class="bi bi-linkedin"> LinkedIn</i></a
+      >
+      <a href="https://github.com/patrickmf97" class="me-4"
+        ><i class="bi bi-github"> GitHub</i></a
+      >
+      <a href="https://wa.me/5521985557448"
+        ><i class="bi bi-whatsapp"> WhatsApp</i></a
+      >
+    </footer>
+    <!-- Script Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
